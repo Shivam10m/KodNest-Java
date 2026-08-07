@@ -2,7 +2,7 @@
 public class Labeled_Loop {
 
     public static void main(String[] args) {
-        System.out.println("Labelled loops in Java");
+        System.out.println("Labelled loops in Java  ");
         outer:
         for (int i = 1; i <= 3; i++) {
             inner:
