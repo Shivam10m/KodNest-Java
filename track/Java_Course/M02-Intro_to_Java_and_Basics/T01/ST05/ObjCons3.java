@@ -7,7 +7,7 @@ public class ObjCons3 {
 
         Student s2 = new Student("Rahul");
         s2.display();
-
+        
         Student s3 = new Student();
         s3.display();
 

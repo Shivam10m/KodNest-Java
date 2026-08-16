@@ -14,6 +14,7 @@ class Method_Overloading {
         System.out.println(al.add(20, 20, 21.5));
         System.out.println(al.add(20, 11.5, 11.5));
         System.out.println(al.add('A', 25));
+        System.out.println(al.add('a', 'A'));
     }
 }
 
