@@ -6,8 +6,14 @@ public class Array1 {
     static Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
+        // Way 1 of declaring array
         int[] arr = new int[5];
-        int[] copyArr = new int[arr.length];
+
+        // Way 2 of declaring array
+        int arr1[] = {10, 20, 30, 40, 50};
+
+        // Way 3 of declaring array
+        int[] arr2 = new int[4];
 
         System.out.println("Enter array Elements: ");
         arrayInput(arr);
@@ -15,11 +21,12 @@ public class Array1 {
         System.out.println("\nArray Elements: ");
         printArray(arr);
 
-        System.out.println("\n\nArray in Reverse Order: ");
-        printReversedArray(arr);
+        System.out.println("\nArray Elements: ");
+        printArray(arr1);
 
-        System.out.println("Copying array: ");
-        copyArray(arr, copyArr);
+        System.out.println("\nArray Elements: ");
+        printArray(arr2);
+
     }
 
     public static void arrayInput(int[] arr) {
@@ -33,21 +40,6 @@ public class Array1 {
         for (int i = 0; i <= arr.length - 1; i++) {
             System.out.print(arr[i] + " ");
         }
-    }
-
-    public static void printReversedArray(int[] arr) {
-        for (int i = arr.length - 1; i >= 0; i--) {
-            System.out.print(arr[i] + " ");
-        }
-    }
-
-    public static int[] copyArray(int[] arr, int[] copyArr) {
-        int j = 0;
-        for (int i = 0; i <= arr.length - 1; i++) {
-            copyArr[j] = arr[i];
-            j++;
-        }
-        return copyArr;
     }
 
 }
