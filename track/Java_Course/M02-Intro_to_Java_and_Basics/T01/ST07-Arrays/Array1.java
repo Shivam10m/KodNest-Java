@@ -18,13 +18,15 @@ public class Array1 {
         System.out.println("Enter array Elements: ");
         arrayInput(arr);
 
-        System.out.println("\nArray Elements: ");
+        System.out.print("\nArray Elements: ");
         printArray(arr);
+        System.out.println();
 
-        System.out.println("\nArray Elements: ");
+        System.out.print("\nArray Elements: ");
         printArray(arr1);
+        System.out.println();
 
-        System.out.println("\nArray Elements: ");
+        System.out.print("\nArray Elements: ");
         printArray(arr2);
 
     }
