@@ -18,6 +18,6 @@ public class Problem2 {
         Frequency fs = new Frequency();
         int count = fs.count(arr, target);
 
-        System.out.println(target + ": " + count);
+        System.out.println("Frequency of " + target + ": " + count);
     }
 }
