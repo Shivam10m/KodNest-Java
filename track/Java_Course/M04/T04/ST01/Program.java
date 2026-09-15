@@ -33,7 +33,7 @@ public class Program {
 
     public static void main(String[] args) {
         Program pg = new Program();
-        disp1();
+        Program.disp1();
         pg.disp2();
     }
 
