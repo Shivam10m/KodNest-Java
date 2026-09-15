@@ -6,6 +6,5 @@ public class StringImmutability {
         String upperStr = str.toUpperCase();
         System.out.println(upperStr);
         System.out.println(str);
-
     }
 }
