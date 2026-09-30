@@ -1,7 +1,7 @@
 
 class Program1 {
 
-    int a = 10;
+    private int a = 10;
 
     public void display() {
         System.out.println("Program1: " + a);
