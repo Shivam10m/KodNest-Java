@@ -36,7 +36,7 @@ class PythonDeveloper extends Developer {
     }
 }
 
-public class Polymorphism {
+public class Upcasting {
 
     public static void main(String[] args) {
         System.out.println("Learning Polymorphism in java");
