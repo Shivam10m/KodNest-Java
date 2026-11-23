@@ -21,10 +21,11 @@ public class ArrayList2 {
         System.out.println(list);
 
         ArrayList list2 = new ArrayList();
-        list.add(111);
-        list.add(222);
-        list.add(333);
-        list.add(444);
+        list2.add(111);
+        list2.add(222);
+        list2.add(333);
+        list2.add(444);
+        System.out.println(list2);
 
         list.addAll(list2);
         System.out.println(list);
