@@ -17,6 +17,7 @@ public class ArrayList_In_Java {
         al.add('c');
         al.add(true);
         al.add(23.5);
+        al.addFirst(5);
         System.out.println(al);
 
     }
