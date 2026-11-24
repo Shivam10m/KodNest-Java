@@ -18,6 +18,12 @@ public class ArrayList_In_Java {
         al.add(true);
         al.add(23.5);
         al.addFirst(5);
+        al.addLast(99);
+        System.out.println(al);
+
+        System.out.println(al.get(6));
+        System.out.println(al.get(8));
+        System.out.println(al.get(9));
         System.out.println(al);
 
     }

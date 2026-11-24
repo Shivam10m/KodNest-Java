@@ -15,9 +15,9 @@ public class ArrayList2 {
         System.out.println(list.contains(600));
         System.out.println(list.size());
         System.out.println(list.isEmpty());
-        System.out.println((Integer) list.get(2));
+        System.out.println(list.get(2));
         System.out.println(list.indexOf(200));
-        System.out.println((Integer) list.lastIndexOf(200));
+        System.out.println(list.lastIndexOf(200));
         System.out.println(list);
 
         ArrayList list2 = new ArrayList();
