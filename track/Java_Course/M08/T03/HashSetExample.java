@@ -13,7 +13,12 @@ public class HashSetExample {
         set.add(10);
         set.add(20);
         set.add(50);
+        System.out.println("Set elements: " + set);
 
+        set.remove(30);
+        System.out.println("Set elements: " + set);
+
+        set.clear();
         System.out.println("Set elements: " + set);
 
         Set set2 = new HashSet();
