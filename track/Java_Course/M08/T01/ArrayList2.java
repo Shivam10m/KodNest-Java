@@ -16,6 +16,7 @@ public class ArrayList2 {
         System.out.println(list.size());
         System.out.println(list.isEmpty());
         System.out.println(list.get(2));
+        System.out.println(list.set(2, 1000));
         System.out.println(list.indexOf(200));
         System.out.println(list.lastIndexOf(200));
         System.out.println(list);
